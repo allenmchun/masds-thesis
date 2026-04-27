@@ -1,0 +1,15 @@
+seed: 42
+algorithm: "cql"
+experiment_name: "cql_final_ne5_v2"
+device: "cpu"
+
+training:
+  batch_size: 256
+  n_epochs: 50
+  n_steps_per_epoch: 2000   # matches BC final pacing (~100k steps total)
+
+algo:
+  gamma: 0.99
+  alpha: 1.0
+  n_critics: 2
+  tau: 0.005   # will be ignored if current d3rlpy DiscreteCQLConfig doesn't support it
