@@ -1,0 +1,3 @@
+policy,gamma,episodes_used,pd_wis,weight_sum,ess_proxy,behavior_estimator,bc_model,policy_model
+CQL,0.99,347,-0.00839482660455275,8891623705681.77,18347.336252180572,BC,results/models/bc_final_ne5_v2.pt,results/models/cql_final_ne5_v2.pt
+BCQ_best10k,0.99,347,-0.9372607062602272,2059.586805683307,2060.1736317265904,BC,results/models/bc_final_ne5_v2.pt,results/models/bcq_best10k_ne5_v2.pt

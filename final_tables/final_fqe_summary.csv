@@ -1,0 +1,4 @@
+policy,gamma,n_steps,n_steps_per_epoch,fqe_mean_value,fqe_std_value,ckpt
+bc_final_ne5_v2,0.99,50000,5000,-97.98658752441406,0.5026556849479675,/Users/allenchun/Desktop/ucla/thesis/results/models/bc_final_ne5_v2.pt
+cql_final_ne5_v2,0.99,50000,5000,-97.68130493164062,0.5001505017280579,/Users/allenchun/Desktop/ucla/thesis/results/models/cql_final_ne5_v2.pt
+bcq_best10k_ne5_v2,0.99,50000,5000,-107.04327392578125,1.357131838798523,/Users/allenchun/Desktop/ucla/thesis/results/models/bcq_best10k_ne5_v2.pt
